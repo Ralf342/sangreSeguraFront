@@ -11,7 +11,7 @@ function Donaciones(params) {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const res = await axios.get("http://sangre-segura-backend-production.up.railway.app/donacionesPersonas");
+                const res = await axios.get("https://back-production-84c0.up.railway.app/donacionesPersonas");
                 // console.log(res.data);
                 setDatosDonacionesPersonas(res.data);
             } catch (error) {
@@ -24,7 +24,7 @@ function Donaciones(params) {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const res = await axios.get("http://sangre-segura-backend-production.up.railway.app/donacionesHospitales");
+                const res = await axios.get("https://back-production-84c0.up.railway.app/donacionesHospitales");
                 // console.log(res.data);
                 setDatosDonacionesHospitales(res.data);
             } catch (error) {

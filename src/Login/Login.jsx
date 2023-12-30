@@ -15,7 +15,7 @@ function Login() {
     window.localStorage.clear();
     const peticionLogin = async () => {
         try {
-            const respuesta = await axios.post("http://sangre-segura-backend-production.up.railway.app/validar", datosFormulario);
+            const respuesta = await axios.post("https://back-production-84c0.up.railway.app/validar", datosFormulario);
             console.log("Respuesta de peticion: " + respuesta);
             return respuesta;
         } catch (error) {

@@ -50,7 +50,7 @@ function Perfil(params) {
 
     const obtenerPerfil = async () => {
         try {
-            const response = await axios.get("http://sangre-segura-backend-production.up.railway.app/miPerfil", { params: { correoDonante: correoDonante } });
+            const response = await axios.get("https://back-production-84c0.up.railway.app/miPerfil", { params: { correoDonante: correoDonante } });
             console.log(response.data)
             setDataAnexo(response.data);
         } catch (error) {
@@ -65,7 +65,7 @@ function Perfil(params) {
 
     const eliminarPerfil = async () => {
         try {
-            const response = await axios.delete("http://sangre-segura-backend-production.up.railway.app/eliminarPerfil", { params: { correo: correoDonante } });
+            const response = await axios.delete("https://back-production-84c0.up.railway.app/eliminarPerfil", { params: { correo: correoDonante } });
             console.log(response.data)
             if (response.data == "Perfil Eliminado") {
                 abrirPopup()
@@ -101,7 +101,7 @@ function Perfil(params) {
 
     const modificarPerfil = async () => {
         try {
-            const response = await axios.get("http://sangre-segura-backend-production.up.railway.app/modificarPerfil", { params: { correo: correoDonante, nombre: anexoData.nombre, apellidos: anexoData.apellidos, telefono: anexoData.telefono, tipoDeSangre: anexoData.tipoDeSangre, enfermedades: anexoData.enfermedades } });
+            const response = await axios.get("https://back-production-84c0.up.railway.app/modificarPerfil", { params: { correo: correoDonante, nombre: anexoData.nombre, apellidos: anexoData.apellidos, telefono: anexoData.telefono, tipoDeSangre: anexoData.tipoDeSangre, enfermedades: anexoData.enfermedades } });
             console.log(response.data)
             if (response.data == "Informacion Modificada")
                 abrirPopupMod()
