@@ -54,11 +54,10 @@ function Principal(params) {
                     <p className='centrarTextoPrincipal'>Sangre Segura Xalapa ha sido un apoyo invaluable para mi familia. Gracias a ella pudimos llegar a mas personas  y conseguir la sangre necesaria para mi hija en un momento muy difícil.</p>
                 </div>
                 <div className="image-container">
-                    <h2>Título del Contenedor</h2>
                     <div className="image-row">
                         <div className="image">
                             <img src="./Imagenes/retratoHombrePrincipal.webp" alt="Imagen Donante 1" />
-                            <p>Nombre: Pablo González
+                            <pre>Nombre: Pablo González
 
                                 Fecha de Nacimiento: 10 de abril de 1935
 
@@ -68,20 +67,20 @@ function Principal(params) {
                                 Diabetes tipo 2 diagnosticada en 2003.
                                 Osteoartritis crónica en las articulaciones de las rodillas desde 2010.
                                 Historial de eventos cardiovasculares en la familia.
-                            </p>
+                            </pre>
                         </div>
                         <div className="image">
                             <img src="./Imagenes/fachadaHospitalPrincipal.webp" alt="Imagen Donante 2" />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium cupiditate est minus ab non aut enim iusto, reiciendis cumque illo aperiam nam esse vel. Accusantium quasi velit quos vitae dolores.</p>
+                            <p>El Asilo Elizabeth Arkham para criminales dementes es un edificio fundado por Amadeus Arkham en noviembre de 1921 para encerrar a los criminales mentalmente inestables de Gotham City. Su arquitectura exterior es acorde a la locura que guarda en su interior. Es el principal hospital psiquiátrico de la ciudad y del universo DC.</p>
                         </div>
                         <div className="image">
                             <img src="./Imagenes/retratoMujerPrincipal.webp" alt="Imagen Donante 3" />
-                            <p>Nombre Ana Rodríguez
+                            <pre>Nombre Ana Rodríguez
                                 Fecha de Nacimiento: 25 de julio de 1990
                                 Antecedentes Médicos:
                                 No se reportan antecedentes médicos significativos.
                                 No hay historial de enfermedades crónicas en la familia.
-                            </p>
+                            </pre>
                         </div>
                     </div>
                 </div>

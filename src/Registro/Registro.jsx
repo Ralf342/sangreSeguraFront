@@ -17,7 +17,7 @@ const Registro = () => {
 
   const hacerPeticion = async () => {
     try {
-      const respuesta = await axios.post("http://localhost:4567/registro", datosFormulario);
+      const respuesta = await axios.post("http://sangre-segura-backend-production.up.railway.app/registro", datosFormulario);
       console.log(respuesta.data);
       return respuesta.data;
     } catch (error) {

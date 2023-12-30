@@ -27,7 +27,7 @@ function Donantes(params) {
 
     const obtenerDonantes = async () => {
         try {
-            const response = await axios.get("http://localhost:4567/donantes");
+            const response = await axios.get("http://sangre-segura-backend-production.up.railway.app/donantes");
             console.log(response.data)
             setDonanteData(response.data);
         } catch (error) {
