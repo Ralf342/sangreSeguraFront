@@ -53,11 +53,12 @@ function Principal(params) {
                     <h2 >Bienvenido a Sangre Segura Xalapa</h2>
                     <p className='centrarTextoPrincipal'>Sangre Segura Xalapa ha sido un apoyo invaluable para mi familia. Gracias a ella pudimos llegar a mas personas  y conseguir la sangre necesaria para mi hija en un momento muy difícil.</p>
                 </div>
+                <h2>Titulo</h2>
                 <div className="image-container">
                     <div className="image-row">
                         <div className="image">
                             <img src="./Imagenes/retratoHombrePrincipal.webp" alt="Imagen Donante 1" />
-                            <pre>Nombre: Pablo González
+                            <p>Nombre: Pablo González
 
                                 Fecha de Nacimiento: 10 de abril de 1935
 
@@ -67,7 +68,7 @@ function Principal(params) {
                                 Diabetes tipo 2 diagnosticada en 2003.
                                 Osteoartritis crónica en las articulaciones de las rodillas desde 2010.
                                 Historial de eventos cardiovasculares en la familia.
-                            </pre>
+                            </p>
                         </div>
                         <div className="image">
                             <img src="./Imagenes/fachadaHospitalPrincipal.webp" alt="Imagen Donante 2" />
@@ -75,12 +76,12 @@ function Principal(params) {
                         </div>
                         <div className="image">
                             <img src="./Imagenes/retratoMujerPrincipal.webp" alt="Imagen Donante 3" />
-                            <pre>Nombre Ana Rodríguez
+                            <p>Nombre Ana Rodríguez
                                 Fecha de Nacimiento: 25 de julio de 1990
                                 Antecedentes Médicos:
                                 No se reportan antecedentes médicos significativos.
                                 No hay historial de enfermedades crónicas en la familia.
-                            </pre>
+                            </p>
                         </div>
                     </div>
                 </div>
