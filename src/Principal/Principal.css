@@ -1,0 +1,473 @@
+body {
+    background-color: #3590AF;
+    height: auto;
+}
+
+.app {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #00008f;
+    color: #fff;
+}
+
+.navbar h3 {
+    margin: 0;
+}
+
+.navbar-right a {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-right a:hover {
+    text-decoration: underline;
+}
+
+.page-content {
+    padding: 20px;
+}
+
+.active-link {
+    text-decoration: underline;
+}
+
+.hero-section {
+    position: relative;
+}
+
+.hero-image {
+    width: 100%;
+    height: 40vh;
+    opacity: 80%;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.hero-text h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.bottom-text {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.bottom-text h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.image {
+    flex: 0 0 30%;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.image p {
+    margin-top: 10px;
+}
+
+.navbar-right button {
+    margin-left: 20px;
+    padding: 8px 16px;
+    background-color: #0000ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar-right button:hover {
+    background-color: #0056b3;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+#root {
+    padding: 0px;
+    margin: 0px;
+    max-width: 100%;
+}
+
+.ContenedorLogin {
+    background-color: aqua;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.titleLogin {
+    margin-top: 2em;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+
+}
+
+.textFieldDatosLogin {
+    display: block;
+    width: 80%;
+    margin: 0% 10%;
+    margin-top: 20px;
+    height: 3em;
+    box-sizing: border-box;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 3px;
+    border-color: white;
+    background: none;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+}
+
+.alejarTituloLogin {
+    margin-top: 25%;
+}
+
+.textFieldDatosLogin::placeholder {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+}
+
+.botonSesionLogin {
+    display: inline-block;
+    width: 30%;
+    margin: 1% 10%;
+    margin-top: 5%;
+    height: 2em;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #0000ff;
+    color: white;
+}
+
+.botonSesionLogin:hover {
+    background-color: #00008f;
+    cursor: pointer;
+}
+
+.link_SingUp {
+    margin-left: 30%;
+    width: fit-content;
+    color: white;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+
+}
+
+.contenedorDatosLogin {
+    background-color: #1F4B92;
+    width: 100vw;
+    height: 100vh;
+}
+
+.contenedorImgLogin {
+    background-color: #1F4B92;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90vw;
+    height: auto;
+    z-index: 1;
+}
+
+.posicionImgLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.posicionImgLogin img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.contenedorRegistro {
+    background-color: aqua;
+    width: 100%;
+    height: 50em;
+    display: flex;
+}
+
+.titleRegistro {
+    margin-top: 2em;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+
+}
+
+.textFieldDatosRegistro {
+    display: block;
+    width: 80%;
+    margin: 0% 10%;
+    margin-top: 20px;
+    height: 3em;
+    box-sizing: border-box;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 3px;
+    border-color: white;
+    background: none;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+}
+
+.apartarTituloRegistro {
+    margin-top: 5%;
+}
+
+.textFieldDatosRegistro::placeholder {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+}
+
+.botonSesionRegistro {
+    display: inline-block;
+    width: 30%;
+    margin: 1% 10%;
+    margin-top: 5%;
+    height: 2em;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #0000ff;
+    color: white;
+}
+
+.botonSesionRegistro:hover {
+    background-color: #00008f;
+    cursor: pointer;
+}
+
+.link_Login {
+    margin-left: 20%;
+    width: fit-content;
+    color: white;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+
+}
+
+.Signup_container {
+    background-color: #1F4B92;
+    width: 70%;
+    height: auto;
+
+}
+
+.contenedorImgRegistro {
+    background-color: #1F4B92;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30%;
+    height: auto;
+    z-index: 1;
+}
+
+.posicionImgRegisstro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.posicionImgRegisstro img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contenedorImgDonaciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contenedorImgIndividual {
+    width: 20%;
+    height: 70vh;
+    margin: 5vh;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #1F4B92;
+}
+
+.estiloimgContenedor {
+    width: 100%;
+    height: auto;
+}
+
+.informacionDonacion {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.contenedorDonantes {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+    margin-left: 7vw;
+    gap: 20px;
+}
+
+.inforDonante {
+    padding: 15px;
+    text-align: left;
+    background-color: #1F4B92;
+    width: 40vw;
+}
+
+.tituloInfoDonante {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.textoInfoDonante {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+
+.perfil-container {
+    max-width: 50%;
+    margin: 0 auto;
+    height: 100vh;
+    text-align: center;
+}
+
+.form-container {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin: 0% 10%;
+    margin-top: 15px;
+    height: 3em;
+    box-sizing: border-box;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 3px;
+    border-color: white;
+    background: none;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+}
+
+textarea {
+    height: 10vh;
+    display: block;
+    width: 100%;
+    margin: 0% 10%;
+    margin-top: 15px;
+    box-sizing: border-box;
+    border-top: 3px;
+    border-left: 3px;
+    border-right: 3px;
+    border-width: 3px;
+    border-color: white;
+    background: none;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+}
+
+.Popup_container{
+    background-color: #00008f;
+    color:white;
+    display: flex;
+    flex-flow:  row wrap;
+    justify-content: center;
+    align-content: center;
+    }
+    
+    .Popup_text{
+        /* background-color: black; */
+        color:white;
+        /* font-family: 'Oswald', sans-serif; */
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.9em;
+        text-align: center;
+    }
+    .Popup_button_container{
+        background-color: #00008f;
+        position:relative;
+        /* right: 10%; */
+    }
+    .Popup_button{
+        background-color: #00008f;
+        position: relative;
+        right: 40%;
+    }
+    .Popup_text_button{
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.4em;
+    }
+    
+      
